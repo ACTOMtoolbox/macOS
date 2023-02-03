@@ -2,7 +2,7 @@
 
 Run on a macOS machine with a graphical user interface for settings - Docker is required to run the toolbox (https://docs.docker.com/engine/install/).
 
-As the toolbox setup needs access to your computer's display, the toolbox must be run on a system with an X11 server installed. For macOS this would be XQuartz which can be downloaded here: https://www.xquartz.org. Once installed, open and open Preferences.. from the XQaurtz pull down menu, click on security tab and allow connections from network clients. You will now require to restart the computer.
+As the toolbox setup needs access to your computer's display, the toolbox must be run on a system with an X11 server installed. For macOS this would be XQuartz which can be downloaded here: https://www.xquartz.org. Once installed, open and open Preferences.. from the XQaurtz pull down menu, click on security tab and allow connections from network clients (such as the local docker virtual machine). You will now require to restart the computer.
 
 With docker engine and an XQuartz installed and running, execute Run.sh in the folder you wish to run the toolbox in using the xterm terminal. This can be done through typing the following into the xterm terminal in the correct folder. This may require administrator privileges.
 
