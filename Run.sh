@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/zsh
 TIMESTAMP=$(date +%Y%m%d%H%M%S)
 title=Run-$TIMESTAMP
 
