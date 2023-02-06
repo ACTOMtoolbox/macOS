@@ -9,7 +9,6 @@ IP=$(/usr/sbin/ipconfig getifaddr en0)
 
 docker run -it -v /tmp/.X11-unix:/tmp/.X11-unix -e DISPLAY="${IP}:0" -e systemOS=mac --mount type=bind,source="$(pwd)",target=/srv/actom-run/input actomtoolbox/actom-run
 
-rm -r Run-All.bat
 sh Run-All.sh
 mkdir -p logs
 mv Run-All.sh logs/Run-All.sh
